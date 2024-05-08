@@ -4,7 +4,7 @@ Kelas: Pemrograman Lanjut B<br>
 
 # Module 10 - Timer
 
-### Understanding how it works
+### Understanding How It Works
 
 ![alt text](https://github.com/rafizia/adpro-module-10-timer/blob/master/src/image/Experiment%201.2.png?raw=true)
 
@@ -16,7 +16,7 @@ Pesan "Rafi's Komputer: hey hey" dicetak terlebih dahulu daripada baris kode `sp
 
 Pada gambar di atas, terlihat bahwa pesan "done3" muncul lebih dulu daripada "done2". Hal ini terjadi karena proses eksekusi terjadi secara konkuren, sehingga ketiga *tasks* tadi mungkin dieksekusi dalam urutan yang berbeda-beda. Oleh karena itu, meskipun *task* "done3" dipasang terakhir, hal tersebut tidak menjamin bahwa *task* tersebut akan dieksekusi terakhir.
 
-### Removing drop
+### Removing Drop
 
 ![alt text](https://github.com/rafizia/adpro-module-10-timer/blob/master/src/image/Experiment%201.3%20-%20no%20drop(spawner).png?raw=true)
 
